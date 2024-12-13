@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34 !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+body {
+  background-color: black; /* Set background color to black */
+  color: white; /* Set text color to white for better contrast */
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Set a default font */
+}
+
+.container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: #222; /* Darker card background */
+  border: 1px solid #444; /* Border color for cards */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px;
+  margin: 10px;
+  width: 300px; /* Fixed width for cards */
+  text-align: center; /* Center text in cards */
+}
+
+.profile-card img {
+  width: 100px; /* Set image width */
+  height: 100px; /* Set image height */
+  border-radius: 50%; /* Circular image */
+}
